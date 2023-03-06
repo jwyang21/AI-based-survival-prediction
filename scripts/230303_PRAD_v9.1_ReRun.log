@@ -1,0 +1,468 @@
+python3 230301_DeepSurv.py --version 9.1 --cpg_type opensea --cohort TCGA-PRAD --result_dir /data/project/3dith/result --data_dir /data/project/3dith/data/ --num_folds 5 --lr 0.0005
+cohort result dir: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1
+===
+fold1_OS
+2023-03-03 14:28:14,323 - Training step 0/2000    |                         | - loss: 24.3120 - ci: 0.7571
+2023-03-03 14:28:44,290 - Training step 250/2000  |***                      | - loss: 2.6218 - ci: 1.0000
+2023-03-03 14:29:18,218 - Training step 500/2000  |******                   | - loss: 1.7516 - ci: 1.0000
+2023-03-03 14:29:48,728 - Training step 750/2000  |*********                | - loss: 0.9720 - ci: 1.0000
+2023-03-03 14:30:20,130 - Training step 1000/2000 |************             | - loss: 1.1795 - ci: 1.0000
+2023-03-03 14:30:50,889 - Training step 1250/2000 |***************          | - loss: 1.2754 - ci: 1.0000
+2023-03-03 14:31:21,265 - Training step 1500/2000 |******************       | - loss: 1.0804 - ci: 1.0000
+2023-03-03 14:31:51,584 - Training step 1750/2000 |*********************    | - loss: 0.8699 - ci: 1.0000
+2023-03-03 14:32:21,168 - Finished Training with 2000 iterations in 247.94s
+train c-index of the last epoch: 1.0
+validation c-index of the last epoch: 0.43636363636363634
+spent time: 254.09364223480225
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_OS_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_OS_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_OS_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_OS_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_OS_lr_0.0005_train_log_c-index.png
+test set c-index: 1.0
+target = OS, num_samples = 100
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold1_OS_lr_0.0005.png
+fold 1 OS (lr=0.0005) LogRank p-value: 0.31731050786291115
+===
+fold2_OS
+2023-03-03 14:32:24,871 - Training step 0/2000    |                         | - loss: 25.4103 - ci: 0.4939
+2023-03-03 14:32:57,758 - Training step 250/2000  |***                      | - loss: 2.4675 - ci: 0.9980
+2023-03-03 14:33:31,223 - Training step 500/2000  |******                   | - loss: 1.4105 - ci: 1.0000
+2023-03-03 14:34:06,076 - Training step 750/2000  |*********                | - loss: 1.5229 - ci: 1.0000
+2023-03-03 14:34:37,606 - Training step 1000/2000 |************             | - loss: 1.5054 - ci: 1.0000
+2023-03-03 14:35:08,005 - Training step 1250/2000 |***************          | - loss: 0.8189 - ci: 1.0000
+2023-03-03 14:35:39,323 - Training step 1500/2000 |******************       | - loss: 0.8051 - ci: 1.0000
+2023-03-03 14:36:12,066 - Training step 1750/2000 |*********************    | - loss: 1.1610 - ci: 1.0000
+2023-03-03 14:36:41,764 - Finished Training with 2000 iterations in 257.16s
+train c-index of the last epoch: 1.0
+validation c-index of the last epoch: 0.5961538461538461
+spent time: 258.83923077583313
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_OS_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_OS_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_OS_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_OS_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_OS_lr_0.0005_train_log_c-index.png
+test set c-index: 0.2972972972972973
+target = OS, num_samples = 100
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold2_OS_lr_0.0005.png
+fold 2 OS (lr=0.0005) LogRank p-value: 0.13250484716632363
+===
+fold3_OS
+2023-03-03 14:36:46,127 - Training step 0/2000    |                         | - loss: 27.0288 - ci: 0.3760
+2023-03-03 14:37:18,089 - Training step 250/2000  |***                      | - loss: 2.2428 - ci: 1.0000
+2023-03-03 14:37:49,732 - Training step 500/2000  |******                   | - loss: 1.3313 - ci: 1.0000
+2023-03-03 14:38:21,893 - Training step 750/2000  |*********                | - loss: 1.0595 - ci: 1.0000
+2023-03-03 14:38:52,926 - Training step 1000/2000 |************             | - loss: 1.5673 - ci: 1.0000
+2023-03-03 14:39:22,995 - Training step 1250/2000 |***************          | - loss: 0.9118 - ci: 1.0000
+2023-03-03 14:39:55,402 - Training step 1500/2000 |******************       | - loss: 0.7149 - ci: 1.0000
+2023-03-03 14:40:29,037 - Training step 1750/2000 |*********************    | - loss: 0.9370 - ci: 1.0000
+2023-03-03 14:41:01,857 - Finished Training with 2000 iterations in 255.98s
+train c-index of the last epoch: 1.0
+validation c-index of the last epoch: 0.6493506493506493
+spent time: 257.75110816955566
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_OS_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_OS_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_OS_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_OS_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_OS_lr_0.0005_train_log_c-index.png
+test set c-index: 0.2857142857142857
+target = OS, num_samples = 100
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold3_OS_lr_0.0005.png
+fold 3 OS (lr=0.0005) LogRank p-value: 0.16821810631163037
+===
+fold4_OS
+2023-03-03 14:41:05,212 - Training step 0/2000    |                         | - loss: 22.4717 - ci: 0.5478
+2023-03-03 14:41:38,454 - Training step 250/2000  |***                      | - loss: 1.5736 - ci: 1.0000
+2023-03-03 14:42:11,204 - Training step 500/2000  |******                   | - loss: 1.2141 - ci: 1.0000
+2023-03-03 14:42:43,334 - Training step 750/2000  |*********                | - loss: 1.1300 - ci: 1.0000
+2023-03-03 14:43:14,072 - Training step 1000/2000 |************             | - loss: 1.9497 - ci: 1.0000
+2023-03-03 14:43:45,125 - Training step 1250/2000 |***************          | - loss: 0.7824 - ci: 1.0000
+2023-03-03 14:44:15,212 - Training step 1500/2000 |******************       | - loss: 0.7962 - ci: 1.0000
+2023-03-03 14:44:45,477 - Training step 1750/2000 |*********************    | - loss: 0.6537 - ci: 1.0000
+2023-03-03 14:45:17,232 - Finished Training with 2000 iterations in 252.34s
+train c-index of the last epoch: 1.0
+validation c-index of the last epoch: 0.5364806866952789
+spent time: 253.97435116767883
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_OS_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_OS_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_OS_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_OS_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_OS_lr_0.0005_train_log_c-index.png
+test set c-index: 0.13829787234042554
+target = OS, num_samples = 99
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold4_OS_lr_0.0005.png
+fold 4 OS (lr=0.0005) LogRank p-value: 0.14145831800166866
+===
+fold5_OS
+2023-03-03 14:45:21,142 - Training step 0/2000    |                         | - loss: 25.7008 - ci: 0.6035
+2023-03-03 14:45:53,305 - Training step 250/2000  |***                      | - loss: 2.4031 - ci: 1.0000
+2023-03-03 14:46:27,637 - Training step 500/2000  |******                   | - loss: 0.9809 - ci: 1.0000
+2023-03-03 14:46:58,979 - Training step 750/2000  |*********                | - loss: 0.9662 - ci: 1.0000
+2023-03-03 14:47:31,191 - Training step 1000/2000 |************             | - loss: 0.8464 - ci: 1.0000
+2023-03-03 14:48:02,201 - Training step 1250/2000 |***************          | - loss: 1.6550 - ci: 1.0000
+2023-03-03 14:48:32,617 - Training step 1500/2000 |******************       | - loss: 0.7618 - ci: 1.0000
+2023-03-03 14:49:04,223 - Training step 1750/2000 |*********************    | - loss: 0.9565 - ci: 1.0000
+2023-03-03 14:49:35,190 - Finished Training with 2000 iterations in 254.31s
+train c-index of the last epoch: 1.0
+validation c-index of the last epoch: 0.6824034334763949
+spent time: 255.99395036697388
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_OS_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_OS_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_OS_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_OS_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_OS_lr_0.0005_train_log_c-index.png
+test set c-index: 0.26174496644295303
+target = OS, num_samples = 99
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold5_OS_lr_0.0005.png
+fold 5 OS (lr=0.0005) LogRank p-value: 0.18393562345922504
+===
+fold1_DSS
+2023-03-03 14:49:39,253 - Training step 0/2000    |                         | - loss: 25.2916 - ci: 0.8227
+2023-03-03 14:50:10,746 - Training step 250/2000  |***                      | - loss: 0.7536 - ci: 1.0000
+2023-03-03 14:50:42,821 - Training step 500/2000  |******                   | - loss: 0.6401 - ci: 1.0000
+2023-03-03 14:51:13,982 - Training step 750/2000  |*********                | - loss: 0.9323 - ci: 1.0000
+2023-03-03 14:51:45,499 - Training step 1000/2000 |************             | - loss: 0.4211 - ci: 1.0000
+2023-03-03 14:52:16,540 - Training step 1250/2000 |***************          | - loss: 0.4217 - ci: 1.0000
+2023-03-03 14:52:47,922 - Training step 1500/2000 |******************       | - loss: 0.3933 - ci: 1.0000
+2023-03-03 14:53:18,517 - Training step 1750/2000 |*********************    | - loss: 0.3892 - ci: 1.0000
+2023-03-03 14:53:49,878 - Finished Training with 2000 iterations in 251.18s
+train c-index of the last epoch: 1.0
+validation c-index of the last epoch: 0.5384615384615384
+spent time: 252.88540863990784
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_DSS_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_DSS_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_DSS_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_DSS_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_DSS_lr_0.0005_train_log_c-index.png
+test set c-index: 0.0625
+target = DSS, num_samples = 100
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold1_DSS_lr_0.0005.png
+fold 1 DSS (lr=0.0005) LogRank p-value: 0.3319754670827342
+===
+fold2_DSS
+2023-03-03 14:53:53,895 - Training step 0/2000    |                         | - loss: 25.7657 - ci: 0.9291
+2023-03-03 14:54:26,316 - Training step 250/2000  |***                      | - loss: 0.7613 - ci: 1.0000
+2023-03-03 14:54:58,246 - Training step 500/2000  |******                   | - loss: 1.0183 - ci: 1.0000
+2023-03-03 14:55:32,059 - Training step 750/2000  |*********                | - loss: 0.9067 - ci: 1.0000
+2023-03-03 14:56:03,517 - Training step 1000/2000 |************             | - loss: 0.7505 - ci: 1.0000
+2023-03-03 14:56:35,027 - Training step 1250/2000 |***************          | - loss: 0.8088 - ci: 1.0000
+2023-03-03 14:57:06,732 - Training step 1500/2000 |******************       | - loss: 0.3403 - ci: 1.0000
+2023-03-03 14:57:37,380 - Training step 1750/2000 |*********************    | - loss: 0.4433 - ci: 1.0000
+2023-03-03 14:58:10,952 - Finished Training with 2000 iterations in 257.44s
+train c-index of the last epoch: 1.0
+validation c-index of the last epoch: 0.532258064516129
+spent time: 259.00997495651245
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_DSS_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_DSS_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_DSS_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_DSS_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_DSS_lr_0.0005_train_log_c-index.png
+test set c-index: 0.08333333333333333
+target = DSS, num_samples = 99
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold2_DSS_lr_0.0005.png
+fold 2 DSS (lr=0.0005) LogRank p-value: 0.35453947977350153
+===
+fold3_DSS
+2023-03-03 14:58:14,923 - Training step 0/2000    |                         | - loss: 23.3444 - ci: 0.3936
+2023-03-03 14:58:47,928 - Training step 250/2000  |***                      | - loss: 0.9942 - ci: 1.0000
+2023-03-03 14:59:19,340 - Training step 500/2000  |******                   | - loss: 0.8105 - ci: 1.0000
+2023-03-03 14:59:51,650 - Training step 750/2000  |*********                | - loss: 0.4930 - ci: 1.0000
+2023-03-03 15:00:22,957 - Training step 1000/2000 |************             | - loss: 0.5062 - ci: 1.0000
+2023-03-03 15:00:54,362 - Training step 1250/2000 |***************          | - loss: 0.4174 - ci: 1.0000
+2023-03-03 15:01:25,986 - Training step 1500/2000 |******************       | - loss: 0.4021 - ci: 1.0000
+2023-03-03 15:01:58,632 - Training step 1750/2000 |*********************    | - loss: 0.4604 - ci: 1.0000
+2023-03-03 15:02:31,592 - Finished Training with 2000 iterations in 256.95s
+train c-index of the last epoch: 1.0
+validation c-index of the last epoch: 0.7157894736842105
+spent time: 258.5905017852783
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_DSS_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_DSS_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_DSS_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_DSS_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_DSS_lr_0.0005_train_log_c-index.png
+Error: num_pairs is 0
+num_correct: 0
+num_tied: 0
+num_pairs: 0
+formula: (num_correct + num_tied / 2) / num_pairs
+test set c-index: 0
+target = DSS, num_samples = 99
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold3_DSS_lr_0.0005.png
+fold 3 DSS (lr=0.0005) LogRank p-value: 1.0
+===
+fold4_DSS
+2023-03-03 15:02:36,145 - Training step 0/2000    |                         | - loss: 26.7269 - ci: 0.1667
+2023-03-03 15:03:08,520 - Training step 250/2000  |***                      | - loss: 0.9609 - ci: 1.0000
+2023-03-03 15:03:41,101 - Training step 500/2000  |******                   | - loss: 0.4107 - ci: 1.0000
+2023-03-03 15:04:13,643 - Training step 750/2000  |*********                | - loss: 0.4064 - ci: 1.0000
+2023-03-03 15:04:45,583 - Training step 1000/2000 |************             | - loss: 0.4271 - ci: 1.0000
+2023-03-03 15:05:18,753 - Training step 1250/2000 |***************          | - loss: 0.5288 - ci: 1.0000
+2023-03-03 15:05:50,471 - Training step 1500/2000 |******************       | - loss: 0.5529 - ci: 1.0000
+2023-03-03 15:06:21,141 - Training step 1750/2000 |*********************    | - loss: 0.2565 - ci: 1.0000
+2023-03-03 15:06:51,365 - Finished Training with 2000 iterations in 255.51s
+train c-index of the last epoch: 1.0
+validation c-index of the last epoch: 0.6947368421052632
+spent time: 257.12022733688354
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_DSS_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_DSS_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_DSS_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_DSS_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_DSS_lr_0.0005_train_log_c-index.png
+test set c-index: 0.2857142857142857
+target = DSS, num_samples = 99
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold4_DSS_lr_0.0005.png
+fold 4 DSS (lr=0.0005) LogRank p-value: 0.34887331357196416
+===
+fold5_DSS
+2023-03-03 15:06:55,653 - Training step 0/2000    |                         | - loss: 25.7629 - ci: 0.9355
+2023-03-03 15:07:28,576 - Training step 250/2000  |***                      | - loss: 0.5704 - ci: 1.0000
+2023-03-03 15:08:01,264 - Training step 500/2000  |******                   | - loss: 0.4441 - ci: 1.0000
+2023-03-03 15:08:33,330 - Training step 750/2000  |*********                | - loss: 0.5830 - ci: 1.0000
+2023-03-03 15:09:06,654 - Training step 1000/2000 |************             | - loss: 0.3131 - ci: 1.0000
+2023-03-03 15:09:40,048 - Training step 1250/2000 |***************          | - loss: 0.4415 - ci: 1.0000
+2023-03-03 15:10:12,321 - Training step 1500/2000 |******************       | - loss: 0.3111 - ci: 1.0000
+2023-03-03 15:10:43,795 - Training step 1750/2000 |*********************    | - loss: 0.2294 - ci: 1.0000
+2023-03-03 15:11:15,533 - Finished Training with 2000 iterations in 260.17s
+train c-index of the last epoch: 1.0
+validation c-index of the last epoch: 0.5578947368421052
+spent time: 261.8488521575928
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_DSS_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_DSS_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_DSS_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_DSS_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_DSS_lr_0.0005_train_log_c-index.png
+test set c-index: 0.16326530612244897
+target = DSS, num_samples = 99
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold5_DSS_lr_0.0005.png
+fold 5 DSS (lr=0.0005) LogRank p-value: 0.3366683676100361
+===
+fold1_DFI
+2023-03-03 15:11:19,991 - Training step 0/2000    |                         | - loss: 26.0140 - ci: 0.2918
+2023-03-03 15:11:50,606 - Training step 250/2000  |***                      | - loss: 4.1970 - ci: 0.9331
+2023-03-03 15:12:22,692 - Training step 500/2000  |******                   | - loss: 3.6241 - ci: 0.9572
+2023-03-03 15:12:54,029 - Training step 750/2000  |*********                | - loss: 3.0844 - ci: 0.9768
+2023-03-03 15:13:25,897 - Training step 1000/2000 |************             | - loss: 2.5519 - ci: 0.9916
+2023-03-03 15:13:57,152 - Training step 1250/2000 |***************          | - loss: 2.4955 - ci: 0.9935
+2023-03-03 15:14:29,226 - Training step 1500/2000 |******************       | - loss: 2.4161 - ci: 0.9944
+2023-03-03 15:15:01,427 - Training step 1750/2000 |*********************    | - loss: 2.1848 - ci: 0.9954
+2023-03-03 15:15:33,468 - Finished Training with 2000 iterations in 253.72s
+train c-index of the last epoch: 0.9972118959107806
+validation c-index of the last epoch: 0.7163412127440905
+spent time: 255.55192804336548
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_DFI_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_DFI_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_DFI_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_DFI_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_DFI_lr_0.0005_train_log_c-index.png
+test set c-index: 0.7971014492753623
+target = DFI, num_samples = 68
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold1_DFI_lr_0.0005.png
+fold 1 DFI (lr=0.0005) LogRank p-value: 0.11792483771914697
+===
+fold2_DFI
+2023-03-03 15:15:38,034 - Training step 0/2000    |                         | - loss: 23.7875 - ci: 0.4554
+2023-03-03 15:16:09,661 - Training step 250/2000  |***                      | - loss: 4.2595 - ci: 0.9099
+2023-03-03 15:16:39,913 - Training step 500/2000  |******                   | - loss: 3.9637 - ci: 0.9349
+2023-03-03 15:17:11,165 - Training step 750/2000  |*********                | - loss: 3.1273 - ci: 0.9619
+2023-03-03 15:17:41,832 - Training step 1000/2000 |************             | - loss: 2.8448 - ci: 0.9851
+2023-03-03 15:18:12,373 - Training step 1250/2000 |***************          | - loss: 2.7255 - ci: 0.9944
+2023-03-03 15:18:43,195 - Training step 1500/2000 |******************       | - loss: 2.3188 - ci: 0.9944
+2023-03-03 15:19:14,375 - Training step 1750/2000 |*********************    | - loss: 2.2792 - ci: 0.9963
+2023-03-03 15:19:44,399 - Finished Training with 2000 iterations in 246.64s
+train c-index of the last epoch: 0.9981412639405205
+validation c-index of the last epoch: 0.7661290322580645
+spent time: 248.60096168518066
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_DFI_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_DFI_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_DFI_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_DFI_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_DFI_lr_0.0005_train_log_c-index.png
+test set c-index: 0.5357142857142857
+target = DFI, num_samples = 68
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold2_DFI_lr_0.0005.png
+fold 2 DFI (lr=0.0005) LogRank p-value: 0.9195648749351389
+===
+fold3_DFI
+2023-03-03 15:19:49,280 - Training step 0/2000    |                         | - loss: 27.5349 - ci: 0.3633
+2023-03-03 15:20:20,588 - Training step 250/2000  |***                      | - loss: 4.1505 - ci: 0.9120
+2023-03-03 15:20:52,233 - Training step 500/2000  |******                   | - loss: 3.6010 - ci: 0.9654
+2023-03-03 15:21:24,048 - Training step 750/2000  |*********                | - loss: 2.9450 - ci: 0.9831
+2023-03-03 15:21:55,494 - Training step 1000/2000 |************             | - loss: 2.5440 - ci: 0.9916
+2023-03-03 15:22:28,098 - Training step 1250/2000 |***************          | - loss: 2.4265 - ci: 0.9963
+2023-03-03 15:22:58,893 - Training step 1500/2000 |******************       | - loss: 2.0294 - ci: 0.9991
+2023-03-03 15:23:29,479 - Training step 1750/2000 |*********************    | - loss: 1.9397 - ci: 0.9981
+2023-03-03 15:23:58,833 - Finished Training with 2000 iterations in 250.14s
+train c-index of the last epoch: 1.0
+validation c-index of the last epoch: 0.5925925925925926
+spent time: 251.99416947364807
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_DFI_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_DFI_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_DFI_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_DFI_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_DFI_lr_0.0005_train_log_c-index.png
+test set c-index: 0.7652173913043478
+target = DFI, num_samples = 68
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold3_DFI_lr_0.0005.png
+fold 3 DFI (lr=0.0005) LogRank p-value: 0.009282604543103356
+===
+fold4_DFI
+2023-03-03 15:24:03,947 - Training step 0/2000    |                         | - loss: 23.3524 - ci: 0.6351
+2023-03-03 15:24:35,995 - Training step 250/2000  |***                      | - loss: 3.9388 - ci: 0.8849
+2023-03-03 15:25:08,006 - Training step 500/2000  |******                   | - loss: 3.2458 - ci: 0.9496
+2023-03-03 15:25:38,562 - Training step 750/2000  |*********                | - loss: 2.8296 - ci: 0.9846
+2023-03-03 15:26:10,762 - Training step 1000/2000 |************             | - loss: 2.6058 - ci: 0.9908
+2023-03-03 15:26:42,784 - Training step 1250/2000 |***************          | - loss: 2.2801 - ci: 0.9949
+2023-03-03 15:27:14,237 - Training step 1500/2000 |******************       | - loss: 2.6158 - ci: 0.9979
+2023-03-03 15:27:44,938 - Training step 1750/2000 |*********************    | - loss: 2.0584 - ci: 0.9990
+2023-03-03 15:28:14,980 - Finished Training with 2000 iterations in 251.61s
+train c-index of the last epoch: 0.998972250770812
+validation c-index of the last epoch: 0.6854663774403471
+spent time: 252.90929865837097
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_DFI_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_DFI_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_DFI_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_DFI_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_DFI_lr_0.0005_train_log_c-index.png
+test set c-index: 0.5669014084507042
+target = DFI, num_samples = 67
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold4_DFI_lr_0.0005.png
+fold 4 DFI (lr=0.0005) LogRank p-value: 0.3077886084932309
+===
+fold5_DFI
+2023-03-03 15:28:19,723 - Training step 0/2000    |                         | - loss: 27.9192 - ci: 0.5920
+2023-03-03 15:28:49,525 - Training step 250/2000  |***                      | - loss: 4.3038 - ci: 0.8112
+2023-03-03 15:29:19,550 - Training step 500/2000  |******                   | - loss: 3.9787 - ci: 0.8484
+2023-03-03 15:29:50,699 - Training step 750/2000  |*********                | - loss: 3.3786 - ci: 0.9152
+2023-03-03 15:30:23,157 - Training step 1000/2000 |************             | - loss: 3.0466 - ci: 0.9676
+2023-03-03 15:30:54,026 - Training step 1250/2000 |***************          | - loss: 2.9809 - ci: 0.9847
+2023-03-03 15:31:24,505 - Training step 1500/2000 |******************       | - loss: 2.5384 - ci: 0.9905
+2023-03-03 15:31:54,030 - Training step 1750/2000 |*********************    | - loss: 2.4287 - ci: 0.9962
+2023-03-03 15:32:24,701 - Finished Training with 2000 iterations in 245.26s
+train c-index of the last epoch: 0.9990467111534795
+validation c-index of the last epoch: 0.7006507592190889
+spent time: 247.06666159629822
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_DFI_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_DFI_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_DFI_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_DFI_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_DFI_lr_0.0005_train_log_c-index.png
+test set c-index: 0.8547717842323651
+target = DFI, num_samples = 67
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold5_DFI_lr_0.0005.png
+fold 5 DFI (lr=0.0005) LogRank p-value: 0.12350392613332696
+===
+fold1_PFI
+2023-03-03 15:32:29,391 - Training step 0/2000    |                         | - loss: 21.2819 - ci: 0.5627
+2023-03-03 15:33:01,680 - Training step 250/2000  |***                      | - loss: 4.6817 - ci: 0.7362
+2023-03-03 15:33:34,774 - Training step 500/2000  |******                   | - loss: 4.6821 - ci: 0.7499
+2023-03-03 15:34:08,306 - Training step 750/2000  |*********                | - loss: 4.6706 - ci: 0.7750
+2023-03-03 15:34:40,881 - Training step 1000/2000 |************             | - loss: 4.6674 - ci: 0.7927
+2023-03-03 15:35:14,510 - Training step 1250/2000 |***************          | - loss: 4.6155 - ci: 0.8206
+2023-03-03 15:35:45,510 - Training step 1500/2000 |******************       | - loss: 4.5663 - ci: 0.8419
+2023-03-03 15:36:13,593 - Training step 1750/2000 |*********************    | - loss: 4.5185 - ci: 0.8786
+2023-03-03 15:36:45,374 - Finished Training with 2000 iterations in 256.24s
+train c-index of the last epoch: 0.8992199030149695
+validation c-index of the last epoch: 0.6082400571564658
+spent time: 258.0430266857147
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_PFI_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_PFI_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_PFI_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_PFI_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold1_PFI_lr_0.0005_train_log_c-index.png
+test set c-index: 0.6429980276134122
+target = PFI, num_samples = 100
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold1_PFI_lr_0.0005.png
+fold 1 PFI (lr=0.0005) LogRank p-value: 0.06042825237677443
+===
+fold2_PFI
+2023-03-03 15:36:48,886 - Training step 0/2000    |                         | - loss: 24.7863 - ci: 0.4516
+2023-03-03 15:37:21,519 - Training step 250/2000  |***                      | - loss: 4.6985 - ci: 0.6905
+2023-03-03 15:37:53,663 - Training step 500/2000  |******                   | - loss: 4.6792 - ci: 0.6977
+2023-03-03 15:38:29,647 - Training step 750/2000  |*********                | - loss: 4.6949 - ci: 0.7198
+2023-03-03 15:39:02,568 - Training step 1000/2000 |************             | - loss: 4.6857 - ci: 0.7289
+2023-03-03 15:39:38,743 - Training step 1250/2000 |***************          | - loss: 4.6895 - ci: 0.7392
+2023-03-03 15:40:12,459 - Training step 1500/2000 |******************       | - loss: 4.6714 - ci: 0.7546
+2023-03-03 15:40:43,984 - Training step 1750/2000 |*********************    | - loss: 4.6665 - ci: 0.7839
+2023-03-03 15:41:15,505 - Finished Training with 2000 iterations in 266.90s
+train c-index of the last epoch: 0.8034998945814885
+validation c-index of the last epoch: 0.6981970857001729
+spent time: 268.7235538959503
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_PFI_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_PFI_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_PFI_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_PFI_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold2_PFI_lr_0.0005_train_log_c-index.png
+test set c-index: 0.5211009174311927
+target = PFI, num_samples = 100
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold2_PFI_lr_0.0005.png
+fold 2 PFI (lr=0.0005) LogRank p-value: 0.14212747570636577
+===
+fold3_PFI
+2023-03-03 15:41:19,553 - Training step 0/2000    |                         | - loss: 23.9820 - ci: 0.4952
+2023-03-03 15:41:52,110 - Training step 250/2000  |***                      | - loss: 4.6749 - ci: 0.7566
+2023-03-03 15:42:25,254 - Training step 500/2000  |******                   | - loss: 4.6602 - ci: 0.7921
+2023-03-03 15:42:57,857 - Training step 750/2000  |*********                | - loss: 4.6644 - ci: 0.7928
+2023-03-03 15:43:31,230 - Training step 1000/2000 |************             | - loss: 4.6537 - ci: 0.8170
+2023-03-03 15:44:04,930 - Training step 1250/2000 |***************          | - loss: 4.6111 - ci: 0.8393
+2023-03-03 15:44:36,295 - Training step 1500/2000 |******************       | - loss: 4.5970 - ci: 0.8565
+2023-03-03 15:45:08,720 - Training step 1750/2000 |*********************    | - loss: 4.4825 - ci: 0.8823
+2023-03-03 15:45:40,079 - Finished Training with 2000 iterations in 261.20s
+train c-index of the last epoch: 0.9011689691817216
+validation c-index of the last epoch: 0.6541205412054121
+spent time: 262.48690009117126
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_PFI_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_PFI_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_PFI_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_PFI_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold3_PFI_lr_0.0005_train_log_c-index.png
+test set c-index: 0.5674676524953789
+target = PFI, num_samples = 100
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold3_PFI_lr_0.0005.png
+fold 3 PFI (lr=0.0005) LogRank p-value: 0.0349685836051511
+===
+fold4_PFI
+2023-03-03 15:45:44,099 - Training step 0/2000    |                         | - loss: 26.4195 - ci: 0.4232
+2023-03-03 15:46:17,171 - Training step 250/2000  |***                      | - loss: 4.6554 - ci: 0.6856
+2023-03-03 15:46:49,710 - Training step 500/2000  |******                   | - loss: 4.6280 - ci: 0.6983
+2023-03-03 15:47:22,549 - Training step 750/2000  |*********                | - loss: 4.6117 - ci: 0.7314
+2023-03-03 15:47:56,791 - Training step 1000/2000 |************             | - loss: 4.5985 - ci: 0.7428
+2023-03-03 15:48:30,515 - Training step 1250/2000 |***************          | - loss: 4.5817 - ci: 0.7656
+2023-03-03 15:49:01,496 - Training step 1500/2000 |******************       | - loss: 4.5409 - ci: 0.7855
+2023-03-03 15:49:34,006 - Training step 1750/2000 |*********************    | - loss: 4.5250 - ci: 0.8175
+2023-03-03 15:50:06,571 - Finished Training with 2000 iterations in 263.09s
+train c-index of the last epoch: 0.8460867669500763
+validation c-index of the last epoch: 0.6543942992874109
+spent time: 264.50309228897095
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_PFI_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_PFI_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_PFI_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_PFI_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold4_PFI_lr_0.0005_train_log_c-index.png
+test set c-index: 0.5369685767097967
+target = PFI, num_samples = 99
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold4_PFI_lr_0.0005.png
+fold 4 PFI (lr=0.0005) LogRank p-value: 0.6190323215711617
+===
+fold5_PFI
+2023-03-03 15:50:10,080 - Training step 0/2000    |                         | - loss: 23.7183 - ci: 0.5399
+2023-03-03 15:50:43,312 - Training step 250/2000  |***                      | - loss: 4.6624 - ci: 0.7298
+2023-03-03 15:51:15,011 - Training step 500/2000  |******                   | - loss: 4.6570 - ci: 0.7404
+2023-03-03 15:51:48,498 - Training step 750/2000  |*********                | - loss: 4.6473 - ci: 0.7514
+2023-03-03 15:52:20,287 - Training step 1000/2000 |************             | - loss: 4.6359 - ci: 0.7601
+2023-03-03 15:52:53,381 - Training step 1250/2000 |***************          | - loss: 4.6298 - ci: 0.7715
+2023-03-03 15:53:25,763 - Training step 1500/2000 |******************       | - loss: 4.5748 - ci: 0.7924
+2023-03-03 15:53:57,957 - Training step 1750/2000 |*********************    | - loss: 4.5874 - ci: 0.8123
+2023-03-03 15:54:30,022 - Finished Training with 2000 iterations in 260.30s
+train c-index of the last epoch: 0.8297433547204399
+validation c-index of the last epoch: 0.6555819477434679
+spent time: 262.1010913848877
+metrics filename: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_PFI_lr_0.0005_metrics
+model: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_PFI_lr_0.0005_model
+weight: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_PFI_lr_0.0005_model_weights
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_PFI_lr_0.0005_train_log_nll.png
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/fold5_PFI_lr_0.0005_train_log_c-index.png
+test set c-index: 0.6119900083263947
+target = PFI, num_samples = 99
+figure file: /data/project/3dith/result/opensea/TCGA-PRAD/v9.1/LogRank_fold5_PFI_lr_0.0005.png
+fold 5 PFI (lr=0.0005) LogRank p-value: 0.3345892067383923
+/data/project/3dith/result/opensea/TCGA-PRAD/v9.1/all_versions_deepsurv_logrank_result_lr_0.0005.csv
